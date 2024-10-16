@@ -1,0 +1,61 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="bg-orange-300 p-4 flex items-center">
+            <i class="fas fa-robot text-2xl"></i>
+            <span class="ml-2 text-xl font-bold">Chatbot</span>
+        </div>
+        <div class="p-4 space-y-4">
+            <div class="flex items-start">
+                <i class="fas fa-robot text-2xl"></i>
+                <div class="ml-2 bg-gray-200 p-2 rounded-lg">
+                    <p>Hi, there! How can I assist you?</p>
+                </div>
+            </div>
+            <div class="flex items-start justify-end">
+                <div class="mr-2 bg-blue-200 p-2 rounded-lg">
+                    <p>Explain about the Bluemix?</p>
+                </div>
+                <i class="fas fa-user text-2xl"></i>
+            </div>
+            <div class="flex items-start">
+                <i class="fas fa-robot text-2xl"></i>
+                <div class="ml-2 bg-gray-200 p-2 rounded-lg">
+                    <p>IBM Bluemix is a cloud platform that helps you solve real problems and drive business value with applications, infrastructure, and services.</p>
+                </div>
+            </div>
+            <div class="flex items-start justify-end">
+                <div class="mr-2 bg-blue-200 p-2 rounded-lg">
+                    <p>What are the benefits of Bluemix?</p>
+                </div>
+                <i class="fas fa-user text-2xl"></i>
+            </div>
+            <div class="flex items-start">
+                <i class="fas fa-robot text-2xl"></i>
+                <div class="ml-2 bg-gray-200 p-2 rounded-lg">
+                    <p>The benefits of Bluemix are:</p>
+                    <ul class="list-disc list-inside">
+                        <li>Reduction in time.</li>
+                        <li>Allows for flexible capacity.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 flex items-center border-t">
+            <input type="text" placeholder="What's on your mind...?" class="flex-grow p-2 border rounded-lg">
+            <button class="ml-2 p-2 bg-pink-300 rounded-full">
+                <i class="fas fa-microphone text-xl"></i>
+            </button>
+        </div>
+        <div class="bg-orange-300 p-4 flex justify-between">
+            <i class="fas fa-chevron-left text-2xl"></i>
+            <div class="w-8 h-8"></div>
+            <i class="fas fa-chevron-right text-2xl"></i>
+        </div>
+    </div>
+</body>
+</html>
